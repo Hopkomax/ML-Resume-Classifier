@@ -1,0 +1,42 @@
+# Python virtual environment
+venv/
+*env/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Large data files
+*.csv
+*.xlsx
+*.json
+data/
+datasets/
+models/
+*.h5
+*.pkl
+*.joblib
+
+# System files
+.DS_Store
+
+# Virtual environment
+resume-ml-env/
+
+# Data files
+data/*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Git files
+.git/
