@@ -1,42 +1,45 @@
 # Python virtual environment
+resume-ml-env/
 venv/
-*env/
 env/
-ENV/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Python cache files
-__pycache__/
-*.py[cod]
-
-# Large data files
-*.csv
-*.xlsx
-*.json
-data/
-datasets/
-models/
+# Python packages and libraries
+*.pyd
+*.dll
+*.so
+*.dylib
 *.h5
 *.pkl
-*.joblib
-
-# System files
-.DS_Store
-
-# Virtual environment
-resume-ml-env/
-
-# Data files
-data/*.csv
-
-# Python cache
-__pycache__/
-*.py[cod]
+dist/
+build/
+*.egg-info/
 
 # Jupyter
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
-# Git files
+# Data files
+data/*.csv
+*.csv
+
+# Git related
 .git/
+git/
+
+# Cache files
+__pycache__/
+*.py[cod]
+.Python
+*.pyc
+
+# TensorFlow and large model files
+**/tensorflow/
+**/torch/
+**/models/
+*.model
+*.h5
+*.pth
+
+# IDE specific files
+.vscode/
+.idea/
